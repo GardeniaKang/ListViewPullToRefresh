@@ -1,0 +1,2 @@
+# ListViewPullToRefresh
+关于ListView列表的便捷使用，BaseAdapter的简单封装，包括上拉加载和下拉刷新功能，可修改刷新效果。
