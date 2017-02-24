@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义边框栏的内边距-->
+    <dimen name="frame_border_padding">2dp</dimen>
+    <!--自定义边框栏的圆角-->
+    <dimen name="frame_border_radius">2dp</dimen>
+    <!--自定义分割线的厚度-->
+    <dimen name="cut_line_weight">0.5dp</dimen>
+
+    <!--字体大小-->
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_16sp">16sp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="text_size_12sp">12sp</dimen>
+    <dimen name="text_size_10sp">10sp</dimen>
+</resources>

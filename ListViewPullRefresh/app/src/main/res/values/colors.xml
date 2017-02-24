@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--边框颜色-->
+    <color name="border_line_color">#e5e5e5</color>
+    <!--分割线颜色-->
+    <color name="cut_line_color">#f2f2f2</color>
+
+    <color name="transparent">#20000000</color>
+
+    <color name="color_white">#ffffff</color>
+
+    <color name="color_bg">#f2f2f2</color>
+    <color name="color_01">#1a1a1a</color>
+    <color name="color_02">#cccccc</color>
+    <color name="color_03">#666666</color>
+</resources>

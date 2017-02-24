@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kpull_to_load_footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/kpull_to_load_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_centerInParent="true"
+        android:text="释放加载"
+        android:textSize="12sp"
+        android:textColor="#999999"/>
+
+    <ImageView
+        android:id="@+id/kpull_to_load_image"
+        android:layout_width="10dp"
+        android:layout_height="15dp"
+        android:layout_toLeftOf="@id/kpull_to_load_text"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/icon_refresh_arrow_up" />
+
+    <ProgressBar
+        android:id="@+id/kpull_to_load_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_toLeftOf="@id/kpull_to_load_text"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:indeterminate="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>
